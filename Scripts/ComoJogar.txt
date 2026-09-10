@@ -1,0 +1,9 @@
+COMO JOGAR
+
+A / D ou setas esquerda / direita = andar
+Espaco, W ou seta para cima = pular
+S ou seta para baixo = abaixar
+Shift enquanto anda = deslizar
+
+A fase e criada automaticamente quando a Unity terminar de compilar.
+Para cria-la novamente, use o menu: Jogo 2D > Montar ou refazer fase inicial.
