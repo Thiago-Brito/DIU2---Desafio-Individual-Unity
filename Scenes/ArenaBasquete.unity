@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1001}
+  - component: {fileID: 1002}
+  m_Layer: 0
+  m_Name: QUADRA LUNAR - Arena
+  m_TagString: Untagged
+  m_IsActive: 1
+--- !u!4 &1001
+Transform:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &1002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 1000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41be4b3bfd70466ba829ea41ec9216c6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  jogadorSprites:
+  - {fileID: -412498761756640823, guid: c3af41e793a120b4dada76317c41d6f2, type: 3}
+  - {fileID: -7691096663412189274, guid: 019ed8daa2285c144a377e4f14a38c7c, type: 3}
+  - {fileID: -3576788465335234342, guid: 032fbb542b928c4459d6e1f532b90db1, type: 3}
+  - {fileID: 5317385868484950614, guid: 5be17e0daa7b2554396fcd4142e32b54, type: 3}
+  - {fileID: -9022849625026217963, guid: 4598260c31766aa438200126894e64f4, type: 3}
+  - {fileID: 8951598788110688352, guid: 57277cc4bfda3ed4098c48c02122f6f9, type: 3}
+  - {fileID: 8182608229772872910, guid: 1b716d3bde28f1e49bfcc546ff51cf2c, type: 3}
+  - {fileID: 3485350053959317199, guid: 8ec515dadf8f1574697da4b5f81be1de, type: 3}
+  - {fileID: -4207279953955545415, guid: 46176e2778205504abefc16423fd1bb9, type: 3}
+  alienSprites:
+  - {fileID: 21300000, guid: 9cd33392afc033647ba1e8fc08985ff1, type: 3}
+  - {fileID: 21300000, guid: 688378df481b8ea41bd53226ff9eff19, type: 3}
+  bolaSprite: {fileID: -2003338153679005971, guid: 5f721868bc791794aa4154adf1d43983, type: 3}
+  projetilInimigoSprite: {fileID: 5353841184698615464, guid: 404c53ef171b3954b9f20222aea888a8, type: 3}
+  cristalSprite: {fileID: 4141138629526647054, guid: bcca01aba8252fe41aa6f56ab76cf7e9, type: 3}
+  quadrado: {fileID: -6843121172269811921, guid: ba908f39cbf300d46a0be8b9ef24e0a0, type: 3}
+  efeitos:
+  - {fileID: 8300000, guid: ef115d8ba2f707c47bb2956bfee768b9, type: 3}
+  - {fileID: 8300000, guid: b52f8ffc79355314eb912d482fe154f2, type: 3}
+  - {fileID: 8300000, guid: ae3492ff84fbf444fa46f978bdf7e4c5, type: 3}
+  - {fileID: 8300000, guid: fbf987afff1e2f24d9fb945bb46fc175, type: 3}
+  - {fileID: 8300000, guid: 9a64419856b50fd4d9dfbd5674e2b86a, type: 3}
+  - {fileID: 8300000, guid: b5bce347e3c2b394abccf0fb184f2e1d, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1001}

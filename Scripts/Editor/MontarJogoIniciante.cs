@@ -136,7 +136,7 @@ public static class MontarJogoIniciante
 
             TextureImporter importer = AssetImporter.GetAtPath(caminho) as TextureImporter;
             if (importer == null) continue;
-            if (importer.filterMode == FilterMode.Point &&
+            if (importer.filterMode == FilterMode.Bilinear &&
                 importer.textureCompression == TextureImporterCompression.Uncompressed &&
                 !importer.mipmapEnabled && importer.textureType == TextureImporterType.Sprite &&
                 (!alien || importer.spriteImportMode == SpriteImportMode.Single)) continue;
@@ -147,7 +147,7 @@ public static class MontarJogoIniciante
                 importer.spriteImportMode = SpriteImportMode.Single;
                 importer.spritePixelsPerUnit = 100f;
             }
-            importer.filterMode = FilterMode.Point;
+            importer.filterMode = FilterMode.Bilinear;
             importer.textureCompression = TextureImporterCompression.Uncompressed;
             importer.mipmapEnabled = false;
             importer.SaveAndReimport();
